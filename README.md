@@ -3,3 +3,22 @@ The project aims to investigate whether the inconsistent measurements seen at th
 ## Motivation
 
 ## Instructions to Run
+### Required Installations
+Install the following Python libraries:
+
+```bash
+pip install numpy scipy matplotlib mendeleev
+```
+### Dependencies
+
+### Cloning the Repository
+```bash
+git clone 
+```
+
+### Running the Simulation
+
+
+
+
+
