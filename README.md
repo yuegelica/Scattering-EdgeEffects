@@ -13,7 +13,7 @@ pip install numpy scipy matplotlib mendeleev
 
 ### Cloning the Repository
 ```bash
-git clone 
+git clone git@github.com:yuegelica/Scattering-EdgeEffects.git
 ```
 
 ### Running the Simulation
