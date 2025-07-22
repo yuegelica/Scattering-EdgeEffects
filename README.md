@@ -4,6 +4,13 @@ The project aims to investigate whether the inconsistent measurements seen at th
 
 ## Instructions to Run
 ### Required Installations
+Installing a virtual envionment is recommended:
+```bash
+python3 -m venv myenv
+```
+```bash
+source myenv/bin/activate
+```
 Install the following Python libraries:
 
 ```bash
