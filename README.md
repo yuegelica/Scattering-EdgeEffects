@@ -17,7 +17,10 @@ Install the following Python libraries:
 pip install numpy scipy matplotlib mendeleev
 ```
 ### Dependencies
-
+Install the required packages listed in requirements.txt:
+```bash
+pip install -r requirements.txt
+```
 ### Cloning the Repository
 ```bash
 git clone git@github.com:yuegelica/Scattering-EdgeEffects.git
