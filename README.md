@@ -27,7 +27,7 @@ git clone git@github.com:yuegelica/Scattering-EdgeEffects.git
 ```
 
 ### Running the Simulation
-
+There are 4 different plots this project can produce. The main plot of the intensity distribution can be generated in the main.py file. To generate a Transmimssion plot identical to ones found on https://henke.lbl.gov/, run the transmissionplot.py file. 
 
 
 
