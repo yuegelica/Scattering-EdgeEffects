@@ -29,11 +29,19 @@ git clone git@github.com:yuegelica/Scattering-EdgeEffects.git
 ```
 
 ## Running the Simulation
-There are 4 different plots this project can produce. The main plot of the intensity distribution can be generated in the main.py file. To generate a Transmimssion plot identical to ones found on https://henke.lbl.gov/, run the transmissionplot.py file. 
-
+There are 4 different plots this project can produce. The basecode.py file contains all the conversions and functions needed for the simulations to fun.
+### CCD Distribution
+The main plot can be generated in the main.py file. It plots the combined intensity values at each CCD pixel.There are three subplots that will be generated.
+### Transmission Plot
+To generate a Transmimssion plot identical to ones found on https://henke.lbl.gov/, run the transmissionplot.py file.
+### Horizontal Displacement
+To generate a histogram of the horizontal displacement distribution, run the horizontaldisplacement.py file.
+### Intensity Distribution
+To generate a histogram of the intensity distribution, run the intensity.py file.
 ## Usage
 
 ### Example Run
+
 ## Recreating Simulation Results
 
 ## Paper and Presentation
