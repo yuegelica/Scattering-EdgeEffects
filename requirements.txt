@@ -1,4 +1,4 @@
 numpy==2.3.2
 scipy==1.16.0
 matplotlib==3.10.3
-mendeleev ==1.1.0
+mendeleev==1.1.0
