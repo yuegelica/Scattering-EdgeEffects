@@ -43,7 +43,7 @@ To generate a histogram of the intensity distribution, run the intensity.py file
 ### Example Run
 
 ## Recreating Simulation Results
-
+Refer to (./recreate_plots/)
 ## Paper and Presentation
 
 ## Contact
