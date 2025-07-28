@@ -1,8 +1,7 @@
 # Scattering-EdgeEffects
+## Motivation
 The project aims to investigate whether the inconsistent measurements seen at the edges of an aerogel foam sample are a consequence of some sort of scattering mechanism (whether due to the porosity, surface mechanisms like refraction, or something else entirely). 
 ## Table of Contents
-
-## Motivation
 
 ## Instructions to Run
 ### Required Installations
@@ -39,8 +38,6 @@ To generate a histogram of the horizontal displacement distribution, run the hor
 ### Intensity Distribution
 To generate a histogram of the intensity distribution, run the intensity.py file.
 ## Usage
-
-### Example Run
 
 ## Recreating Simulation Results
 Refer to `recreate_plots.py`
