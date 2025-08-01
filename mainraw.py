@@ -3,14 +3,12 @@ import matplotlib.pyplot as plt
 from scipy import constants as const
 from mendeleev import element
 from basefunctions import *  
-
-# ============== PHYSICAL CONSTANTS ==============
+# Constants
 h = const.h
 c = const.c
 hc = h * c
 r_e = const.physical_constants['classical electron radius'][0] * 100  # in cm
-
-# ============== SIMULATION PARAMETERS ==============
+#Variables
 n1 = 1.05  # Refractive index inside foam
 n2 = 1.00  # Refractive index of pores
 pore_fraction = 0.985
@@ -21,7 +19,6 @@ beam_width = 900e-4  # cm (900 μm)
 ccd_pixel_size = 13.5e-4  # cm (13.5 μm)
 rho = 2.33
 
-# ============== PHYSICS FUNCTIONS ==============
 
 def weighted_ma(formula, rho):
     elements, counts = parse_compounds(formula)
