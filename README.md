@@ -77,6 +77,28 @@ cd paper/
 ```
 cd presentation/
 ```
+1. Place all files in your working directory (or install to a local LaTeX path).
+2. In your LaTeX document, load the theme with:
+
+```latex
+\documentclass{beamer}
+\usetheme{CleanEasy}
+```
+
+3. (Optional) Include modular configurations:
+
+```latex
+\input{configs/configs.tex}
+\input{configs/title_page.tex}
+```
+
+4. Compile with `pdflatex` or `latexmk`:
+
+```bash
+pdflatex CleanEasy.tex
+```
+
+---
 ## Contact
 If you have any questions or suggestions, feel free to contact me at yuegelicay@gmail.com.
 
