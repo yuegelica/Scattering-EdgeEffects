@@ -59,33 +59,33 @@ python main.py
 ```
 
 This creates plots showing:
-- Combined intensity values at each CCD pixel
-- Zoomed view of left edge effects
-- Zoomed view of right edge effects  
-- Transmission difference values
+- Combined intensity values at each CCD pixel: CCD_Overlay_new.png
+- Zoomed view of left edge effects: zoomed_left_edge_new.png
+- Zoomed view of right edge effects: zoomed_right_edge_new.png
+- Transmission difference values: transmission_diff.png
 ### 2. Generate comprehensive summary plots
 
-Create six summary subplots in one figure:
+Create six summary subplots:
 ```
 python mainraw.py
 ```
 
 This produces:
-- Input beam profile
-- CCD sensor with pure attenuation
-- Horizontal displacement distribution
-- Transmission distribution comparison
-- CCD sensor with scattering effects
-- Final position histogram
+- Input beam profile: inputbeamprofile.png
+- CCD sensor with pure attenuation: pureattenuationccd.png
+- Horizontal displacement distribution: horizontaldisplacements.png
+- Transmission distribution comparison: scattering_transmission_comparison.png
+- CCD sensor with scattering effects: scatteredccd.png
+- Final position histogram: final_ray_pos.png
 
 ### 3. Generate X-ray transmission plots
 
-Create transmission vs energy plots (similar to Henke database):
+Create transmission vs energy plots (similar to Henke database): 
 ```
 python transmissionplot.py
 ```
 
-This generates transmission curves for your material composition.
+This generates transmission curves for your material composition. For "Si5O10Ti", you would get the file energy_vs_transmission.png
 
 ### 4. Generate individual analysis plots
 
@@ -93,7 +93,7 @@ Create horizontal displacement histogram:
 ```
 python horizontaldisplacement.py
 ```
-
+And this would create a file called lateral_displacement.png
 Create intensity distribution histogram:
 ```
 python intensity.py
@@ -107,10 +107,10 @@ python summaryplots.py
 ```
 
 This produces four plots summarizing:
-- Pore radius vs transmission
-- Pore radius vs horizontal displacement
-- Porosity vs transmission  
-- Porosity vs horizontal displacement
+- Pore radius vs transmission: dxvsporeradius.png
+- Pore radius vs horizontal displacement: dxvsporositynew.png
+- Porosity vs transmission: transmissionvsporosity1.png
+- Porosity vs horizontal displacement: transmissonvspore1.png
 
 ### 6. Recreate all simulation results
 
